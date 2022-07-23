@@ -17,7 +17,7 @@ export function App() {
   const [page, setPage] = useState(1);
   const [isLoading, setIsLoading] = useState(false);
   const [totalHits, setTotalHits] = useState(0);
-  const [err, setErr] = useState(null);
+  const [, setErr] = useState(null);
 
   useEffect(() => {
     
