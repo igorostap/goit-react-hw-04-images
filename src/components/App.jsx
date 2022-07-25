@@ -56,7 +56,7 @@ export function App() {
   };
   const onSubmit = evt => {
     evt.preventDefault();
-    
+    setTotalHits(0)
     setGalleryImgName(evt.target.elements.searchName.value.trim().toLowerCase());
     setPage(1);
     setGallery([]);
